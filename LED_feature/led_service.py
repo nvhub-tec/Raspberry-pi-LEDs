@@ -1,9 +1,9 @@
+# led_service.py
 import random
-from tests.LED_feature.led_repo import LedRepository
 
 class LedService:
-    def __init__(self):
-        self.led = LedRepository()
+    def __init__(self, led_repo):
+        self.led = led_repo
 
     def LedBlink(self):
         while True:

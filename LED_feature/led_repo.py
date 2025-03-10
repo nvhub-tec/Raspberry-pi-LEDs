@@ -1,7 +1,6 @@
-# directly control hardware
+# led_repo.py
 import RPi.GPIO as GPIO
 import time
-
 
 class LedRepository:
     def __init__(self, pin =26):
